@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__form {
+    width: 350px;
+    display: flex;
+}
+
+.app__form input {
+    width: 75%;
+    padding: 5px 8px;
+}
+
+.app__form button {
+    width: 25%;
+}
+
+.task__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task__item-btn {
+    display: flex;
+    gap: 5px;
+}
+
+.task__item-btn button {
+    padding: 7px 10px;
+}
+
+.task__item-btn button:first-child {
+    background-color: rgb(255, 192, 208);
+    border: none;
+}
+
+.task__item-btn button:last-child {
+    background-color: rgba(0, 128, 0, 0.52);
+    border: none;
+}
+
+.red {
+    color: red;
+}
+
+.app__filter {
+    margin-top: 5px;
+}
+
+.app__filter button {
+    padding: 5px 8px;
+}
